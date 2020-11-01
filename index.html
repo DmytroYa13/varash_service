@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шиномонтаж м.Вараш</title>
+  <meta name="description" content="Послуги шиномонтажу місто Вараш. Чекаємо у нас">
+  <meta name="keywords" content="шиномонтаж, вараш, балансування зварювання дисків,
+    рихнування дисків, балансировка, сварка дисков, диски ">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="icon" href="wheel.png" type="image/png">
+
+
+</head>
+
+<body>
+
+  <div class="wrap">
+    <header>
+      <div class="logo"><img src="img/icon1.webp"></div>
+
+      <div class="header-info">
+        <div class="logo-name"><span class="logo-logo">Шиномонтаж</span></div>
+        <div class="header-town">м. Вараш</div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="tel:+380675854799">Зателефонувати <div class="anime1"><img class="call-phone" src="img/telephone.png" alt="">
+        </div></a>
+      <a href="tg://resolve?domain=varash_service">Написати в <div class="anime2"> <img class="type-telegram"
+            src="img/telegram.png" alt=""></div></a>
+      <a
+        href="https://www.google.com.ua/maps/dir/50.3986496,30.3818515/51.3371943,25.8514638/@51.3373282,25.8505045,261m/data=!3m1!1e3!4m5!4m4!1m1!4e1!1m0!3e0?hl=uk">Прокласти
+        маршрут<div class="anime3"><img class="go-mark" src="img/mark2.png" alt=""></div></a>
+
+    </nav>
+    <section>
+      <div class="top-wheel">
+        <div class="car-wraper">
+
+          <div class="card">
+            <div class="card-header">Шиномонтаж</div>
+            <div class="img-wrapper"><img class="eqipments1" src="img/card1.svg" alt=""></div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">Балансування</div>
+            <div class="img-wrapper"><img class="eqipments2" src="img/card2.svg" alt=""></div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">Зварювання дисків</div>
+            <div class="img-wrapper"><img class="eqipments3" src="img/card3.svg" alt=""></div>
+          </div>
+          <div class="card">
+            <div class="card-header">Рихтування дисків</div>
+            <div class="img-wrapper"><img class="eqipments4" src="img/card4.svg" alt=""></div>
+          </div>
+          <div class="card">
+            <div class="card-header">Продаж б/у шин</div>
+            <div class="img-wrapper"><img class="eqipments5" src="img/card5.svg" alt=""></div>
+          </div>
+          <div class="card">
+            <div class="card-header">Інертний газ</div>
+            <div class="img-wrapper"><img class="eqipments6" src="img/card6.svg" alt=""></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-wheel">
+
+      </div>
+    </section>
+    <footer>
+      <div class="info">
+        <div class="contacts">
+          <div class="vertical-line"></div>
+          <div class="contacts-info">
+            <div class="number ">
+              <div class="info-flex number-logo">
+                <img class="logo-img" src="img/telephone.png" alt="">
+                <span class="number">+380675854799</span>
+              </div>
+              <div class="info-flex telegram-logo">
+                <img class="logo-img" src="img/telegram.png" alt="">
+                <span class="telegram">varash_service</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacts">
+          <div class="vertical-line"></div>
+          <div class="contacts-info contacts-margin">
+            <div class="number ">
+              <p class="info-flex ">
+                Пн-Пт &nbsp 9:00 - 19:00
+              </p>
+              <p class="info-flex ">
+                Сб &nbsp 9:00 - 15:00
+              </p>
+              <div class="info-flex ">
+                Нд - вихідний
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="map"></div>
+    </footer>
+
+  </div>
+  <script>
+    function initMap() {
+
+      var opt = {
+        center: { lat: 51.337208, lng: 25.851442 },
+        zoom: 15,
+        styles: [
+          { elementType: 'geometry', stylers: [{ color: '#000000' }] },
+          { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
+          { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
+          {
+            featureType: 'administrative.locality',
+            elementType: 'labels.text.fill',
+            stylers: [{ color: '#d59563' }]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'labels.text.fill',
+            stylers: [{ color: '#d59563' }]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'geometry',
+            stylers: [{ color: '#263c3f' }]
+          },
+          {
+            featureType: 'poi.park',
+            elementType: 'labels.text.fill',
+            stylers: [{ color: '#6b9a76' }]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry',
+            stylers: [{ color: '#ffffff' }]
+          },
+          {
+            featureType: 'road',
+            elementType: 'geometry.stroke',
+            stylers: [{ color: '#212a37' }]
+          },
+          {
+            featureType: 'road',
+            elementType: 'labels.text.fill',
+            stylers: [{ color: '#9ca5b3' }]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry',
+            stylers: [{ color: '#746855' }]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'geometry.stroke',
+            stylers: [{ color: '#1f2835' }]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'labels.text.fill',
+            stylers: [{ color: '#f3d19c' }]
+          },
+          {
+            featureType: 'transit',
+            elementType: 'geometry',
+            stylers: [{ color: '#2f3948' }]
+          },
+          {
+            featureType: 'transit.station',
+            elementType: 'labels.text.fill',
+            stylers: [{ color: '#d59563' }]
+          },
+          {
+            featureType: 'water',
+            elementType: 'geometry',
+            stylers: [{ color: '#17263c' }]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.fill',
+            stylers: [{ color: '#515c6d' }]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.stroke',
+            stylers: [{ color: '#17263c' }]
+          }
+        ]
+      }
+      var myMap = new google.maps.Map(document.getElementById('map'), opt);
+
+      var marker = new google.maps.Marker({
+        position: { lat: 51.337208, lng: 25.851442 },
+        map: myMap,
+      });
+
+    }
+  </script>
+  <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCm6lmGU_kgDpzyJ6UxgWejiSigyIlLlgE&callback=initMap">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,297 @@
+body{
+    background-color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.header-town{
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    margin: 0 20px;
+}
+.logo-name{
+    font-family: 'Lobster', cursive;
+    color: white;
+    /* font-size: 10vw; */
+    display: flex;
+    margin: 0 20px;
+
+}
+.logo-logo{
+    font-size: 10vw;
+    
+}
+
+nav{
+    text-align: center;
+    margin: 0 20px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav a{
+    background-color: rgb(99, 99, 107);
+    border-radius: 3px;
+    color:rgb(252, 247, 247) ;
+    font-size: 25px;
+    padding: 5px 10px; 
+    margin: 10px 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px white;
+}
+.top-wheel{
+    background-image: url(../img/backImage1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.car-wraper{
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 5px;
+}
+.card-header{
+    width: 100%;
+    padding: 7px 0;
+    height: 35px;
+    text-align: center;
+    font-size: 30px;
+    background-color:black;
+    margin-bottom: 5px;
+    color: white;
+    box-shadow: px px 5px white;
+    border-radius: 5px;
+    
+ 
+}
+
+.telegram{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.eqipments1{
+    width: 35%;
+}
+.eqipments2{
+    width: 55%;
+}
+.eqipments3{
+    width: 85%;
+}
+.eqipments4{
+    width: 55%;
+}
+.eqipments5{
+    width: 65%;
+}
+.eqipments6{
+    width: 100%;
+}
+
+.img-wrapper{
+    height : 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-wheel{
+    background-image: url(../img/backImage2.jpg);   
+     background-position: bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+
+.info{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contacts{
+    width: 220px;
+    height: inherit;
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-size: 20px;
+    margin: 15px 5px;
+}
+
+.vertical-line{
+    width: 5px;
+    height: inherit;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 50px white;
+    
+
+}
+.number-logo, .telegram-logo{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+.contacts-margin{
+    margin-left: 15px;
+}
+.logo-img{
+    width: 100%;
+}
+.info-flex{
+    display: flex;
+    align-items: center;
+    
+}
+
+.number, .telegram{
+    margin: 10px;
+}
+
+#map{
+ 
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    box-shadow: 0px 0px 5px white;
+}
+.type-telegram, .call-phone, .go-mark{
+    width: 30px;
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
+    padding: 0 5px;
+}
+footer{
+    margin-bottom: 50px;
+}
+
+.anime1{
+    display: inline-block;
+    animation: puls1 5s infinite;
+}
+@keyframes puls1{
+    0%{
+        transform: scale(1.0, 1.0);
+    }
+    25%{
+        transform: scale(1.3, 1.3);  
+    }
+    50%{
+        transform: scale(1, 1);       
+    }
+    75%{
+        transform: scale(1, 1);       
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+}
+
+.anime2{
+    display: inline-block;
+    animation: puls2 5s infinite;
+}
+@keyframes puls2{
+    0%{
+        transform: scale(1.0, 1.0);
+    }
+    25%{
+        transform: scale(1.0, 1.0);  
+    }
+    50%{
+        transform: scale(1.3, 1.3);       
+    }
+    75%{
+        transform: scale(1, 1);       
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+}
+
+.anime3{
+    display: inline-block;
+    animation: puls3 5s infinite;
+}
+@keyframes puls3{
+    0%{
+        transform: scale(1.0, 1.0);
+    }
+    25%{
+        transform: scale(1.0, 1.0);  
+    }
+    50%{
+        transform: scale(1, 1);       
+    }
+    75%{
+        transform: scale(1.3, 1.3);       
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+}
+
+@media screen and (max-width:1200px){
+    .logo-logo{
+        font-size: 7vw;
+        
+    }
+}
+
+@media screen and (max-width:760px){
+    .logo-logo{
+        font-size: 8vw;
+        
+    }
+    header{
+        
+        /* flex-wrap: wrap; */
+    }
+    .header-town{
+        
+        font-size: 20px;
+        
+    }
+}
+
+@media screen and (min-width:1200px){
+    .logo-logo{
+        font-size: 120px;
+        
+    }
+}
