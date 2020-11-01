@@ -4,23 +4,42 @@ body{
     font-family: 'Lobster', cursive;
 }
 
+.top-wheel{
+    background-image: url(../img/backImage1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.bottom-wheel{
+    background-image: url(../img/backImage2.jpg);   
+     background-position: bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
 .wrap{
     max-width: 1200px;
     margin: 0 auto; 
-}
-.logo{
-    width: 20%;
-}
-.logo img{
-    width: 100%;
-    
 }
 
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo-name{
+    font-family: 'Lobster', cursive;
+    color: white;
+    display: flex;
+    margin: 0 20px;
 }
 
 .header-town{
@@ -29,14 +48,7 @@ header{
     font-size: 30px;
     margin: 0 20px;
 }
-.logo-name{
-    font-family: 'Lobster', cursive;
-    color: white;
-    /* font-size: 10vw; */
-    display: flex;
-    margin: 0 20px;
 
-}
 .logo-logo{
     font-size: 10vw;
     
@@ -49,6 +61,7 @@ nav{
     justify-content: center;
     flex-wrap: wrap;
 }
+
 nav a{
     background-color: rgb(99, 99, 107);
     border-radius: 3px;
@@ -59,11 +72,8 @@ nav a{
     text-decoration: none;
     box-shadow: 0px 0px 5px white;
 }
-.top-wheel{
-    background-image: url(../img/backImage1.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-}
+
+
 .car-wraper{
     position: relative;
     top: 200px;
@@ -72,6 +82,7 @@ nav a{
     flex-wrap: wrap;
  
 }
+
 .card{
     width: 300px;
     height: 300px;
@@ -80,6 +91,7 @@ nav a{
     box-shadow: 0px 0px 5px white;
     border-radius: 5px;
 }
+
 .card-header{
     width: 100%;
     padding: 7px 0;
@@ -91,13 +103,15 @@ nav a{
     color: white;
     box-shadow: px px 5px white;
     border-radius: 5px;
-    
- 
 }
 
-.telegram{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.img-wrapper{
+    height : 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .eqipments1{
     width: 35%;
 }
@@ -117,19 +131,9 @@ nav a{
     width: 100%;
 }
 
-.img-wrapper{
-    height : 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.bottom-wheel{
-    background-image: url(../img/backImage2.jpg);   
-     background-position: bottom;
-    background-repeat: no-repeat;
-    height: 500px;
-}
+
+
 
 
 
@@ -158,9 +162,17 @@ nav a{
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 5px 5px 50px white;
-    
-
 }
+
+.info-flex{
+    display: flex;
+    align-items: center;
+}
+
+.telegram{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .number-logo, .telegram-logo{
     width: 50px;
     height: 50px;
@@ -172,11 +184,7 @@ nav a{
 .logo-img{
     width: 100%;
 }
-.info-flex{
-    display: flex;
-    align-items: center;
-    
-}
+
 
 .number, .telegram{
     margin: 10px;
